@@ -1,0 +1,14 @@
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\bin\Debug\net8.0\Code_c#_Lab_1.exe
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\bin\Debug\net8.0\Code_c#_Lab_1.deps.json
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\bin\Debug\net8.0\Code_c#_Lab_1.runtimeconfig.json
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\bin\Debug\net8.0\Code_c#_Lab_1.dll
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\bin\Debug\net8.0\Code_c#_Lab_1.pdb
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\obj\Debug\net8.0\Code_c#_Lab_1.GeneratedMSBuildEditorConfig.editorconfig
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\obj\Debug\net8.0\Code_c#_Lab_1.AssemblyInfoInputs.cache
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\obj\Debug\net8.0\Code_c#_Lab_1.AssemblyInfo.cs
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\obj\Debug\net8.0\Code_c#_Lab_1.csproj.CoreCompileInputs.cache
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\obj\Debug\net8.0\Code_c#_Lab_1.dll
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\obj\Debug\net8.0\refint\Code_c#_Lab_1.dll
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\obj\Debug\net8.0\Code_c#_Lab_1.pdb
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\obj\Debug\net8.0\Code_c#_Lab_1.genruntimeconfig.cache
+F:\3 курс\2 семестр\ПОП\Lab_1\Code_c#_Lab_1\Code_c#_Lab_1\obj\Debug\net8.0\ref\Code_c#_Lab_1.dll
