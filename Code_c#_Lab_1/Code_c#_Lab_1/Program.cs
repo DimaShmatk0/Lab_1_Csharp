@@ -13,10 +13,10 @@ namespace Code_c__Lab_1
             int minStep = 2;
             int maxStep = 6;
 
-            for (int threadCount = 8; threadCount <= 8; threadCount *= 2)
-            {
-                RunTestWithThreads(threadCount, minDuration, maxDuration, minStep, maxStep);
-            }
+            int threadCount = 8;
+
+            RunTestWithThreads(threadCount, minDuration, maxDuration, minStep, maxStep);
+            
         }
 
         static int[] GenerateRandomArray(int size, int min, int max)
@@ -51,27 +51,20 @@ namespace Code_c__Lab_1
             Console.Write("Кроки додавання: ");
             PrintArray(incrementSteps);
 
-            var launchSignal = new CountdownEvent(1);
             var calculators = new NumberCalculator[threadCount];
 
             for (int i = 0; i < threadCount; i++)
             {
-                calculators[i] = new NumberCalculator(i, incrementSteps[i], launchSignal);
+                calculators[i] = new NumberCalculator(i, incrementSteps[i]);
                 calculators[i].Start();
             }
 
             var controller = new ThreadController(threadDurations, calculators);
             Thread controllerThread = new Thread(controller.Run);
 
-            Thread.Sleep(1000);
-            Console.WriteLine(">>> Початок!");
-            var startTime = DateTime.Now;
             controllerThread.Start();
-            launchSignal.Signal(); // даємо сигнал на старт
 
             controllerThread.Join();
-            var durationMs = (DateTime.Now - startTime).TotalMilliseconds;
-            Console.WriteLine($"Загальний час виконання: {durationMs:F2} мс");
         }
     }
 }
