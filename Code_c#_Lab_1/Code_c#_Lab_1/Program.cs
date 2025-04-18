@@ -63,8 +63,6 @@ namespace Code_c__Lab_1
             Thread controllerThread = new Thread(controller.Run);
 
             controllerThread.Start();
-
-            controllerThread.Join();
         }
     }
 }
