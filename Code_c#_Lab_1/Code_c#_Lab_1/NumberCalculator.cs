@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Code_c__Lab_1
 {
     class NumberCalculator
@@ -11,14 +6,12 @@ namespace Code_c__Lab_1
         private Thread thread;
         private readonly int threadId;
         private readonly int increment;
-        private readonly CountdownEvent startLatch;
         private volatile bool stopped = false;
 
-        public NumberCalculator(int threadId, int increment, CountdownEvent startLatch)
+        public NumberCalculator(int threadId, int increment)
         {
             this.threadId = threadId;
             this.increment = increment;
-            this.startLatch = startLatch;
             thread = new Thread(Run);
         }
 
@@ -28,8 +21,6 @@ namespace Code_c__Lab_1
 
         private void Run()
         {
-            startLatch.Wait(); // Очікуємо сигналу запуску
-
             long totalSum = 0;
             long termsCount = 0;
 
